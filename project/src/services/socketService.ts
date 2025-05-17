@@ -1,7 +1,7 @@
 import { io, Socket } from 'socket.io-client';
 
 // We would replace this with an actual server URL in production
-const SERVER_URL = 'https://keysync-server.example.com';
+const SERVER_URL = 'https://keysync.onrender.com';
 
 class SocketService {
   private socket: Socket | null = null;
